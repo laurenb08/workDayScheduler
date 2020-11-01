@@ -4,20 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -30,6 +20,63 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <table class="table">
+        <!-- <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead> -->
+        <tbody>
+          <tr>
+            <th class="hour">9AM</th>
+            <td id="appointment" class="border border-primary"></td>
+            <td class="saveBtn"></td>
+          </tr>
+          <tr>
+            <th class="hour">10AM</th>
+            <td id="appointment" class="border border-primary"></td>
+            <td class="saveBtn"></td>
+          </tr>
+          <tr>
+            <th class="hour">11AM</th>
+            <td id="appointment" class="border border-primary"></td>
+            <td class="saveBtn"></td>
+          </tr>
+          <tr>
+            <th class="hour">12PM</th>
+            <td id="appointment" class="border border-primary"></td>
+            <td class="saveBtn"></td>
+          </tr>
+          <tr>
+            <th clas="hour">1PM</th>
+            <td id="appointment" class="border border-primary"></td>
+            <td class="saveBtn"></td>
+          </tr>
+          <tr>
+            <th class="hour">2PM</th>
+            <td id="appointment" class="border border-primary"></td>
+            <td class="saveBtn"></td>
+          </tr>
+          <tr>
+            <th class="hour">3PM</th>
+            <td id="appointment" class="border border-primary"></td>
+            <td class="saveBtn"></td>
+          </tr>
+          <tr>
+            <th class="hour">4PM</th>
+            <td id="appointment" class="border border-primary"></td>
+            <td class="saveBtn"></td>
+          </tr>
+          <tr>
+            <th class="hour">5PM</th>
+            <td id="appointment" class="border border-primary"></td>
+            <td class="saveBtn"></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
