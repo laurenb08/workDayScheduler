@@ -30,9 +30,9 @@ textarea {
   border-radius: 15px;
 }
 
-.row {
-  white-space: pre-wrap;
-  height: 80px;
+.appointment {
+  /* white-space: pre-wrap; */
+  height: 60px;
   border-top: 1px solid white;
 }
 
