@@ -1,6 +1,6 @@
 var time = moment();
 var compareTime = moment().format("hA");
-var apptTime = document.getElementById("hour").textContent;
+var apptTime = $("#hour").text();
 console.log (compareTime);
 console.log (apptTime);
 
@@ -20,10 +20,10 @@ function saveAppointment() {
 if (compareTime == apptTime) {
     var textClass = $("apptInput");
     document.getElementById("apptInput").classList.add("present");
-} else if (compareTime > apptTime) {
+} else if (compareTime >= apptTime) {
     var textClass = $("apptInput");
     document.getElementById("apptInput").classList.add("past");
-} else if (compareTime < apptTime) {
+} else if (compareTime <= apptTime) {
     var textClass = $("apptInput");
     document.getElementById("apptInput").classList.add("future");
 }
