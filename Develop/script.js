@@ -10,20 +10,22 @@ setInterval (function() {
 
 
 function saveAppointment() {
-    var formInput = document.getElementById("apptInput").value ;
+    var formInput = document.getElementById("apptInput").value;
     localStorage.setItem("apptInput", formInput);
     alert("Appointment saved!") ;
     console.log(formInput);
 }
 
 // if value in the hour class is > = < current hour
-if (compareTime == apptTime) {
-    var textClass = $("apptInput");
-    document.getElementById("apptInput").classList.add("present");
-} else if (compareTime >= apptTime) {
-    var textClass = $("apptInput");
-    document.getElementById("apptInput").classList.add("past");
-} else if (compareTime <= apptTime) {
-    var textClass = $("apptInput");
-    document.getElementById("apptInput").classList.add("future");
+if (compareTime.textContent == apptTime.textContent) {
+    // var textClass = $("apptInput").textContent;
+    $("#apptInput").addClass("present");
+} else if (compareTime.textContent >= apptTime.textContent) {
+    // var textClass = $("apptInput").textContent;
+    $("#apptInput").addClass("past");
+} else if (compareTime.textContent <= apptTime.textContent) {
+    // var textClass = $("apptInput").textContent;
+    $("#apptInput").addClass("future");
 }
+
+//looping over the child elements of table to apply colors
