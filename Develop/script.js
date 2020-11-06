@@ -27,5 +27,3 @@ if (compareTime.textContent == apptTime.textContent) {
     // var textClass = $("apptInput").textContent;
     $("#apptInput").addClass("future");
 }
-
-//looping over the child elements of table to apply colors
