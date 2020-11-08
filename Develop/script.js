@@ -96,7 +96,7 @@ function loadAppointment() {
 //loops over appointment times to help determine if the appointment is in the past, present, or future
 var present = new Date().getHours();
 
-for (i = 9; i < 17; i++) {
+for (i = 9; i < 18; i++) {
     if (present > i) {
         $("#textarea" + i).addClass("past");
     }
