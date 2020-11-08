@@ -1,14 +1,11 @@
 var time = moment();
-// var compareTime = moment().format("hA");
-// var apptTime = $("#hour").val();
-// console.log(compareTime);
-// console.log(apptTime);
 
+//displays current date at top of schedule
 setInterval(function () {
     $("#currentDay").text(time.format("dddd MMMM Do"));
 }, 1000);
 
-
+//Functions for storing appointment info when user clicks the save button
 function saveAppointmentNine() {
     var nineBtn = document.getElementById("textarea9").value;
     localStorage.setItem("nineBtn", nineBtn);
@@ -74,6 +71,7 @@ function saveAppointmentSeventeen() {
 
 loadAppointment();
 
+//function for recalling local storage when page is reloaded
 function loadAppointment() {
     var nineBtn = localStorage.getItem("nineBtn");
     document.getElementById("textarea9").value = nineBtn;
@@ -95,6 +93,7 @@ function loadAppointment() {
     document.getElementById("textarea17").value = seventeenBtn;
 }
 
+//loops over appointment times to help determine if the appointment is in the past, present, or future
 var present = new Date().getHours();
 
 for (i = 9; i < 17; i++) {
