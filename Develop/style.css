@@ -81,6 +81,7 @@ textarea {
   width: 75px;
   height: 85px;
   text-align: center;
+  vertical-align: middle;
 }
 
 .saveBtn i:hover {

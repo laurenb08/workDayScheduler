@@ -108,3 +108,4 @@ for (i = 9; i < 17; i++) {
         $("#textarea" + i).addClass("future");
     }
 };
+console.log(present);
