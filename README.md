@@ -1,50 +1,27 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# **Workday Scheduler**
 
-Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+## **Description**
 
-You'll need to use the [Moment.js library](https://momentjs.com/) to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+Quickly schedule appointments for your day in a color coded, easy to follow calendar format.
 
-## User Story
+## **Links**
 
-Implement the following user story:
+[View the updated site by clicking here](https://laurenb08.github.io/workDayScheduler/)
 
-```
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+[View the GitHub Repo for this project here](https://github.com/laurenb08/workDayScheduler)
 
-## Acceptance Criteria
+## **How this project works**
 
-Aim to meet the following acceptance criteria:
+- Enter an appointment into any time slot
+- Appointment information saves in local storage when the user clicks the save button
+- Past appointment times have a grey background
+- Future appointment times have a green background
+- Current appointment time has a red background
 
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+## **Images**
 
-The following animation demonstrates the application functionality:
+Image of HTML:
+![Image of updated HTML](https://github.com/laurenb08/code-refractor/raw/main/assets/images/UpdatedHTML.png)
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+Image of CSS:
+![Image of updated CSS](https://github.com/laurenb08/code-refractor/raw/main/assets/images/UpdatedCSS.png)
