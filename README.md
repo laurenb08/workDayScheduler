@@ -12,6 +12,7 @@ Quickly schedule appointments for your day in a color coded, easy to follow cale
 
 ## **How this project works**
 
+- Scheduler displays current date
 - Enter an appointment into any time slot
 - Appointment information saves in local storage when the user clicks the save button
 - Past appointment times have a grey background
@@ -20,8 +21,4 @@ Quickly schedule appointments for your day in a color coded, easy to follow cale
 
 ## **Images**
 
-Image of HTML:
-![Image of updated HTML](https://github.com/laurenb08/code-refractor/raw/main/assets/images/UpdatedHTML.png)
-
-Image of CSS:
-![Image of updated CSS](https://github.com/laurenb08/code-refractor/raw/main/assets/images/UpdatedCSS.png)
+![](https://github.com/laurenb08/workDayScheduler/raw/main/Assets/Work%20Day%20Scheduler.gif)
